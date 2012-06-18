@@ -1,4 +1,4 @@
 test:
-	node test/runner.js
+	mocha
 
 .PHONY:	test
