@@ -4,16 +4,12 @@ browserify-bypass
 A node.js [browserify](https://github.com/substack/node-browserify) middleware to declare alternative requires for
 the browser.
 
------------------------------------------------------------------
 <br />
 
 Installation
 ------------
 
 `npm install browserify-bypass`
-
------------------------------------------------------------------
-<br />
 
 Example
 --------
