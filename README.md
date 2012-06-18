@@ -20,7 +20,9 @@ To declare an alternative require for the browser write `// @browser ./path/to/b
 ```javascript
 
 // @browser ./browserModule.js
-var myModule = require("./nodeModule.js");
+var myModule = require("./nodeModule.js"),
+// @browser ./anotherBrowserModule.js
+    anotherModule = require("./anotherNodeModule.js");
 ```
 
 To generate the browserified module just do this:
@@ -38,5 +40,6 @@ The browserified module will now look like this:
 
 ```javascript
 
-var myModule = require("./browserModule.js");
+var myModule = require("./browserModule.js"),
+    anotherModule = require("./anotherBrowserModule.js");
 ```
