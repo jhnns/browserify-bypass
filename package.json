@@ -37,6 +37,6 @@
         "browserify": "1.12.x"
     },
     "scripts" : {
-        "test" : "make test"
+        "test" : "mocha"
     }
 }
