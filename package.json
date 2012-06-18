@@ -1,0 +1,42 @@
+{
+    "name" : "browserify-bypass",
+    "version" : "0.1.0",
+    "description" : "browserify middleware to declare alternative requires for the browser",
+    "keywords" : [
+        "browserify",
+        "middleware",
+        "alternative",
+        "conditional",
+        "require",
+        "browser"
+    ],
+    "author" : {
+        "name" : "Johannes Ewald",
+        "email" : "mail@johannesewald.de",
+        "web" : "http://johannesewald.de"
+    },
+    "main" : "lib/bypass.js",
+    "bugs" : {
+        "email" : "mail@johannesewald.de",
+        "url" : ""
+    },
+    "licenses" : {
+        "type" : "MIT",
+        "url" : "http: //www.opensource.org/licenses/mit-license.php"
+    },
+    "repositories" : {
+        "type" : "git",
+        "url" : "https://github.com/jhnns/browserify-bypass"
+    },
+    "engines" : {
+        "node" : "0.8.x"
+    },
+    "devDependencies": {
+        "mocha": "1.2.x",
+        "expect.js": "0.1.x",
+        "browserify": "1.12.x"
+    },
+    "scripts" : {
+        "test" : "make test"
+    }
+}
